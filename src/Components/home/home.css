@@ -1,0 +1,36 @@
+
+
+.container{
+    background-color:rgb(225, 235, 231);
+    height: 80vh;
+    width: 60vw;
+    padding: 20px 10vw;
+    margin: auto;
+    
+}
+
+.container > form{
+    display: flex;
+    flex-direction: column;
+}
+
+form > input,textarea,button{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.251); 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form > button{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(219, 216, 216);
+}
+
+.task_container{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -1,0 +1,8 @@
+nav{
+    background-color: rgb(60, 109, 225);
+    padding: 5px 2px;
+    font-size: calc(10px + 1.5vmin);
+    text-align: center;
+    color: white;
+    height: 5vh;
+}
